@@ -1,0 +1,40 @@
+# Como Rodar o Projeto HortiFácil
+
+Siga os passos abaixo para rodar o projeto localmente usando o Expo:
+
+## Pré-requisitos
+
+- Node.js instalado
+- Expo CLI instalado (`npm install -g expo-cli`)
+- Editor de código (VS Code recomendado)
+- Celular com o aplicativo **Expo Go** ou um emulador Android/iOS
+
+## Passo a passo
+
+1. Clone o repositório:
+```
+git clone https://github.com/01fff/Hortifruti/tree/main/HortiF-cil-main
+
+cd hortifacil
+```
+
+2. Instale as dependências:
+```
+npm install
+```
+
+3. Inicie o projeto com o Expo:
+```
+npx expo start
+```
+
+4. Escaneie o QR Code com o app **Expo Go** no seu celular.
+
+O app será carregado automaticamente no seu dispositivo.
+
+---
+
+Caso esteja usando Supabase, certifique-se de configurar o arquivo `services/supabase.ts` com a `anonKey` e `url` corretas.
+
+## Integrantes
+   Gabriel Alves Queiroz Silva, Samuel de Lira Mendonça, Leandro de Souza Farias, Ademar Neto Seabra Fonseca e Felipe Olimpio Fonseca.
